@@ -12,3 +12,9 @@ def say_hello():
 
 # Using the decorated function
 say_hello()
+
+#dummy outputs 
+Something is happening before the function is called.
+Hello!
+Something is happening after the function is called.
+
