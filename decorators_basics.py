@@ -34,3 +34,8 @@ def say_hi(name):
 
 # Using the decorated function
 say_hi("Alice")
+
+#dummy output 2
+Hi, Alice!
+Hi, Alice!
+Hi, Alice!
