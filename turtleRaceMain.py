@@ -1,4 +1,4 @@
-#import
+#imports
 from turtle import Turtle, Screen
 import random
 
