@@ -29,6 +29,6 @@ def rename_files(folder_path):
     except Exception as e:
         print(f"An error occurred: {str(e)}")
 
-# Example usage
+# Example usage :
 folder_path = r'C:\Users\HarshPujari\Downloads\bic-compressed'
 rename_files(folder_path)
