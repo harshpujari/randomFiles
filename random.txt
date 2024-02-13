@@ -1,0 +1,2 @@
+# how to uninstall all python libraries installed on windows ?
+for /F "delims=" %i in ('pip freeze') do pip uninstall -y %i
