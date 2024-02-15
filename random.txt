@@ -9,3 +9,6 @@ pip uninstall <library_name>
 #To upgrade library 
 pip install --upgrade pip
 
+#To install a sepcific version of livrary 
+pip install <library_name>==<version_number>
+
