@@ -3,3 +3,5 @@ for /F "delims=" %i in ('pip freeze') do pip uninstall -y %i
 
 # how to check all libraries ?
 pip list
+#To uninstall a specific Python library, use the following command:
+pip uninstall <library_name>
