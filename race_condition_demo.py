@@ -1,5 +1,5 @@
 import threading
-# Shared variable
+# Shared variable.
 counter = 0
 
 # Function to increment the counter
