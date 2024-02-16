@@ -8,7 +8,7 @@ def increment_counter():
     for _ in range(1000000):
         counter += 1
 
-# Create two threads
+# Create two threads.
 thread1 = threading.Thread(target=increment_counter)
 thread2 = threading.Thread(target=increment_counter)
 
