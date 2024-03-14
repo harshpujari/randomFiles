@@ -1,0 +1,17 @@
+# Serveo.net Port Forwarding Setup Guide
+
+This guide provides detailed instructions on how to set up port forwarding using `serveo.net`.
+
+## Prerequisites
+
+1. Ensure you have `ssh` installed on your machine.
+2. A service running locally that you want to expose (e.g., a web server on port 8000).
+
+## Steps
+
+### 1. Verify SSH Installation
+
+First, make sure SSH is installed on your system. Open a terminal and run:
+
+```sh
+ssh -V
