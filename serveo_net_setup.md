@@ -13,5 +13,7 @@ This guide provides detailed instructions on how to set up port forwarding using
 
 First, make sure SSH is installed on your system. Open a terminal and run:
 
-```sh
-ssh -V
+```sh ssh -V```
+
+This should return the version of SSH installed. If SSH is not installed, you will need to install it. On macOS, SSH is usually pre-installed.
+
