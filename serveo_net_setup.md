@@ -17,3 +17,5 @@ First, make sure SSH is installed on your system. Open a terminal and run:
 
 This should return the version of SSH installed. If SSH is not installed, you will need to install it. On macOS, SSH is usually pre-installed.
 
+### 2. Start Your Local Service
+Ensure your local service is running. For example, if you have a web server running on port 8000, start it as you normally would.
