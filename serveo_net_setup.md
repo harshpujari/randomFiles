@@ -22,4 +22,5 @@ Ensure your local service is running. For example, if you have a web server runn
 
 ### 3. Set Up Port Forwarding with Serveo.net
 Use the ssh command to create a tunnel from a remote port on Serveo.net to your local service.  
-```ssh -R 80:localhost:8000 serveo.net```
+```ssh -R 80:localhost:8000 serveo.net```   
+This command will forward all traffic on port 80 of serveo.net to port 8000 on your local machine. When the command is executed, you should see output similar to:
