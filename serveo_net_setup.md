@@ -19,3 +19,7 @@ This should return the version of SSH installed. If SSH is not installed, you wi
 
 ### 2. Start Your Local Service
 Ensure your local service is running. For example, if you have a web server running on port 8000, start it as you normally would.
+
+### 3. Set Up Port Forwarding with Serveo.net
+Use the ssh command to create a tunnel from a remote port on Serveo.net to your local service.  
+```ssh -R 80:localhost:8000 serveo.net```
