@@ -28,6 +28,6 @@ Forwarding HTTP traffic from ```https://<random-subdomain>.serveo.net```
 Press g to start a GUI session and ctrl-c to quit.   
 
 ### 4. Custom Subdomain (Optional)
-If you want to use a custom subdomain, you can specify it in the command:    
-```ssh -R mysubdomain:80:localhost:8000 serveo.net```
-
+If you want to use a custom subdomain, you can specify it in the command:       
+```ssh -R mysubdomain:80:localhost:8000 serveo.net```   
+This will forward traffic from https://mysubdomain.serveo.net to your local service.
