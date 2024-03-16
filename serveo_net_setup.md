@@ -27,3 +27,7 @@ This command will forward all traffic on port 80 of serveo.net to port 8000 on y
 Forwarding HTTP traffic from ```https://<random-subdomain>.serveo.net```
 Press g to start a GUI session and ctrl-c to quit.   
 
+### 4. Custom Subdomain (Optional)
+If you want to use a custom subdomain, you can specify it in the command:    
+```ssh -R mysubdomain:80:localhost:8000 serveo.net```
+
