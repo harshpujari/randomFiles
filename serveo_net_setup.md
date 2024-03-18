@@ -36,5 +36,7 @@ This will forward traffic from https://mysubdomain.serveo.net to your local serv
 Open a web browser and navigate to the provided URL (either the random subdomain or your custom subdomain). You should see your local service being served.
 
 ### 6. Using Different Ports
-If you want to forward a different remote port (other than 80) to your local service, you can specify it as follows:
+If you want to forward a different remote port (other than 80) to your local service, you can specify it as follows:  
+```ssh -R 8080:localhost:8000 serveo.net```
+
 
