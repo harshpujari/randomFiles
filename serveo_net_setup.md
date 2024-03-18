@@ -31,3 +31,6 @@ Press g to start a GUI session and ctrl-c to quit.
 If you want to use a custom subdomain, you can specify it in the command:       
 ```ssh -R mysubdomain:80:localhost:8000 serveo.net```   
 This will forward traffic from https://mysubdomain.serveo.net to your local service.
+
+### 5. Verify the Setup
+Open a web browser and navigate to the provided URL (either the random subdomain or your custom subdomain). You should see your local service being served.
