@@ -47,3 +47,8 @@ This will allow you to close the terminal without stopping the port forwarding.
 
 ### Troubleshooting
 Connection Refused
+f you encounter a Connection refused error, ensure that:
+
+Serveo.net is up and running. Check their status page or Twitter feed for any outages.
+Your local service is running and accessible on the specified port.
+There are no network restrictions or firewalls blocking the connection.
