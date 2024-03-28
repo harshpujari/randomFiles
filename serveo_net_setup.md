@@ -56,3 +56,5 @@ There are no network restrictions or firewalls blocking the connection.
 ### DNS Issues
 If there are DNS resolution issues, try pinging serveo.net to verify connectivity:
 ```ping serveo.net```
+
+If the ping fails, there might be a DNS issue or network restriction.
