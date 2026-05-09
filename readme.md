@@ -1,6 +1,6 @@
 # Random Files
 
-A collection of learning materials, code experiments, and study guides.
+A collection of learning materials, code experiments, study guides and more.
 
 ## Structure
 
